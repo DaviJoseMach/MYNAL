@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Nunito:ital,wght@0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&display=swap');
+
+a {
+  color: inherit;
+}
+
+hr {
+  width: 50%;
+  height: 2px;
+  border: none;
+  background-color: rgb(121, 121, 121);
+
+}
+
+.navbar {
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+  color: rgb(27, 27, 27);
+  background-color: #ffffff;
+  border-bottom: 1px solid #d8d8d8;
+}
+
+.navbar-brand {
+  color: #874421;
+  font-weight: bold;
+}
+
+.navbar-brand:hover {
+  color: #4e2610;
+  font-weight: bold;
+}
+
+.navbar li a {
+  color: #272727;
+}
+
+.navbar li a:hover {
+  color: #874421;
+}
+
+h2 {
+  font-family: Nunito;
+  color: black;
+  font-weight: bold;
+}
+
+p {
+  font-size: 16px;
+  max-width: 600px;
+}
+
+.linktx {
+  color: #874421;
+  font-weight: bold;
+}
+
+.vs {
+  background-color: #e7e7e7;
+}
+
+@media (max-width: 576px) {
+
+  /* Dispositivos menores que o tamanho 'sm' */
+  .him {
+    width: 1px;
+    height: 1px;
+  }
+}

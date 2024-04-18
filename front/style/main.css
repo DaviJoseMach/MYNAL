@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Nunito:ital,wght@0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&display=swap');
+
+a {
+  color: inherit;
+}
+
+hr {
+  width: 50%;
+  height: 2px;
+  border: none;
+  background-color: rgb(121, 121, 121);
+}
+
+.botao-patt {
+  margin-bottom: 100px;
+  position: fixed;
+  bottom: 10px;
+  right: 20px;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.945);
+  border: none;
+  color: #874421;
+  font-size: 40px;
+  cursor: pointer;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s;
+}
+
+.botao-patt:hover {
+  background-color: #dfdfdf;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.349);
+}
+
+.botao-patt i {
+  margin-top: 30%;
+  transform: translateY(-20%);
+  margin-left: -3px;
+}
+
+.botao-circular {
+  position: fixed;
+  bottom: 10px;
+  right: 20px;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.945);
+  border: none;
+  color: #874421;
+  font-size: 40px;
+  cursor: pointer;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s;
+}
+
+.botao-circular:hover {
+  background-color: #dfdfdf;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.349);
+}
+
+.botao-circular i {
+  margin-top: 30%;
+  transform: translateY(-20%);
+  margin-left: -3px;
+}
+
+.card {
+  margin-top: 5px;
+  border: 4px solid #ffffff;
+  height: auto;
+  margin: 0 auto;
+  max-width: 500px;
+  border-radius: 13px;
+  margin-bottom: 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.171);
+  background-color: #fff;
+  overflow: auto;
+}
+
+.card-header {
+  background-color: #f0f0f0;
+  box-shadow: 0px 4px 8px #00000041;
+  padding: 10px;
+  font-weight: bold;
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.card-body {
+  padding: 10px;
+  text-align: justify;
+}
+
+.qmp {
+  font-family: "Inconsolata", monospace;
+  font-style: italic;
+}
+
+.qmp:hover {
+  color: #289C8E;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.tree {
+  float: right;
+  font-size: 20px;
+}
+
+.tree:hover {
+  cursor: pointer;
+  color: #117C6F;
+}
+
+.dropdown {
+  align-items: center;
+  display: none;
+  margin-top: 10px;
+  font-size: 21px;
+}
+
+.dropdown a {
+  padding: 10px;
+}
+
+.show {
+  display: block;
+}
+
+.btn-icon {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 15px;
+  margin-left: 15px;
+}
+
+.btn-icon:focus {
+  outline: none;
+}
+
+.btn-icon .iconl:hover {
+  color: #289C8E;
+}
+
+.btn-icon .icont:hover {
+  color: #9852da;
+}
+
+.btn-icon .icontt:hover {
+  color: #61a0c4;
+}
+
+.likeCount {
+  margin-left: -12px;
+  color: #289C8E;
+  font-weight: bolder;
+}
+
+.dslikeCount {
+  margin-left: -12px;
+  color: #9c2828;
+  font-weight: bolder;
+  font-style: oblique;
+}
+
+
+.iconl,
+.icont {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.navbar {
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+  color: rgb(27, 27, 27);
+  background-color: #ffffff;
+  border-bottom: 1px solid #d8d8d8;
+}
+
+.navbar-brand {
+  color: #874421;
+  font-weight: bold;
+}
+
+.navbar-brand:hover {
+  color: #4e2610;
+  font-weight: bold;
+}
+
+.navbar li a:hover {
+  color: #874421;
+}
+
+.inc {
+  margin-right: 10px;
+}
+
+.btn-primary {
+  background-color: #874421;
+  border-color: #874421;
+  border-radius: 20px;
+}
+
+.btn-primary:hover {
+  background-color: #be744d;
+  border-color: #be744d;
+  border-radius: 20px;
+}
+
+.btn-danger {
+  font-size: 14px;
+  background-color: transparent;
+  color: #9c2828;
+  border-color: rgb(158, 4, 4);
+  border-radius: 50px;
+}
+
+.btn-danger:hover {
+  background-color: rgba(0, 0, 0, 0.034);
+  color: #9c2828;
+  border-color: rgb(158, 4, 4);
+  border-radius: 50px;
+}
+
+.modal-content {
+  border-radius: 25px;
+}
