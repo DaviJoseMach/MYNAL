@@ -1,0 +1,35 @@
+body{
+    background-color: #1d1d1d;
+}
+td{
+    background-color: aliceblue;
+}
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 250px;
+    padding-top: 60px;
+    background-color: #fff; /* Cor de fundo branco */
+    border-right: 1px solid #ddd; /* Borda direita cinza claro */
+  }
+  /* Estilo para os itens do menu */
+  .sidebar a {
+    padding: 10px 15px;
+    display: block;
+    color: #333; /* Cor do texto cinza escuro */
+    text-decoration: none;
+  }
+  /* Estilo para os itens do menu quando hover */
+  .sidebar a:hover {
+    background-color: #d8d8d8; /* Cor de fundo cinza claro ao passar o mouse */
+  }
+
+  .bcinza{
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+  }
+  .modal-content{
+    border-radius: 18px;
+  }

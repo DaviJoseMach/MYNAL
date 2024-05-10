@@ -25,27 +25,19 @@
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#"> API <span
-                                class="sr-only">(current)</span></a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../ofc.php"> OFICIAIS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#"> OFICIAIS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#" tabindex="-1"
+                        <a class="nav-link" href="../login.php" tabindex="-1"
                             aria-disabled="true">PERFIL</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#" tabindex="-1"
-                            aria-disabled="true"> ADICIONAR</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#" tabindex="-1"
                             aria-disabled="true">SOBRE</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#" tabindex="-1"
+                        <a class="nav-link" href="https://twitter.com/davvzin" tabindex="-1"
                             aria-disabled="true">SUPORTE</a>
                     </li>
                 </ul>
@@ -72,75 +64,12 @@
 
         <hr>
 
-        <div class="container mt-5">
-            <div class="row justify-content-center">
-                <div class="col-md-6">
-                    <label for="versao">Selecione a Versão:</label>
-                    <select class="form-control" id="versao">
-                        <option value="all">Todas Versões</option>
-                        <option value="versao1">Versão 1.0</option>
-                        <option value="versao2">Versão 1.1</option>
-                        <option value="versao3">Versão 2.0</option>
-                        <option value="versao4">Versão 2.1</option>
-                    </select>
-                </div>
-            </div>
-        </div>
 
-        <div class="container mt-3">
-            <div class="row justify-content-center">
-                <div class="col-md-6">
-                    <ul id="lista-produtos" class="list-group">
-                        <li class="list-group-item versao1">Recurso A - versão
-                            1.0</li>
-                        <li class="list-group-item versao2">Recurso A - versão
-                            2.0 teste</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-        <div class="container mt-5">
-            <table class="table table-bordered">
-                <thead>
-                    <tr>
-                        <th class="vs">Versão</th>
-                        <th>Descrição</th>
-                        <th>Status</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>0.8</td>
-                        <td>Versão de teste, realizando algumas alterações no
-                            sistema de envio.. e na home..</td>
-                        <td><span class="badge badge-info">log</span></td>
-                    </tr>
-                    <tr>
-                        <td>0.8.9</td>
-                        <td>Testando requisições</td>
-                        <td><span class="badge badge-info">log</span></td>
-                    </tr>
-                    <tr>
-                        <td>0.9</td>
-                        <td>fix</td>
-                        <td><span
-                                class="badge badge-success">Resolvido</span></td>
-                    </tr>
-                    <tr>
-                        <td>0.9.9</td>
-                        <td>refactor</td>
-                        <td><span
-                                class="badge badge-success">Resolvido</span></td>
-                    </tr>
-                    <tr>
-                        <td>1.0</td>
-                        <td><a href="https://github.com/DaviJoseMach/MYNAL">Subindo pro Github</a></td>
-                        <td><span class="badge badge-info">log</span></td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
+        <br>
+        <?php
+         include '../../api/log/log.php';
+        ?>
+       
         <script>
                 document.getElementById('versao').addEventListener('change', function () {
                     var filtro = this.value;

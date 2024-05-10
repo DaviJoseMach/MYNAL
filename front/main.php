@@ -24,22 +24,19 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#"> API <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="debug-page/page.php"> API <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#"> OFICIAIS</a>
+          <a class="nav-link" href="ofc.php"> OFICIAIS</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">PERFIL</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#" tabindex="-1" aria-disabled="true"> ADICIONAR</a>
+          <a class="nav-link" href="login.php" tabindex="-1" aria-disabled="true">PERFIL</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">SOBRE</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">SUPORTE</a>
+          <a class="nav-link" href="https://twitter.com/davvzin" tabindex="-1" aria-disabled="true">SUPORTE</a>
         </li>
       </ul>
     </div>
@@ -52,7 +49,7 @@
       ?>
     </div>
   </div>
-  <a href="debug-page/page.html"><button class="botao-patt">
+  <a href="debug-page/page.php"><button class="botao-patt">
       <i class="fa-solid fa-bug"></i>
     </button></a>
   <button class="botao-circular" data-toggle="modal" data-target="#exampleModal">
